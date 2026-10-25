@@ -31,6 +31,27 @@ The application follows a layered architecture to separate HTTP request handling
 
 This project is being developed as a practical backend engineering project to strengthen Java and Spring Boot skills.
 
+## Live Deployment
+
+**Live API Base URL:** https://job-application-tracker-3458.onrender.com/api/applications
+
+The backend is deployed on Render and connected to a cloud-hosted MySQL database on Aiven.
+
+**Deployment details:**
+- Backend hosting: Render
+- Cloud database: Aiven MySQL
+- Configuration: Environment variables
+- API testing: Postman
+
+> **Note:** The application uses a free Render instance, which may spin down after inactivity. The first request after a period of inactivity can take some time to respond.
+
+### Try the API
+
+- **Retrieve applications:** [GET /api/applications](https://job-application-tracker-3458.onrender.com/api/applications)
+
+  Use Postman to test the POST, PUT, and DELETE endpoints.
+
+
 ## Features
 
 - **Create Applications:** Store job application details through REST API requests.
