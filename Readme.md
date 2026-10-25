@@ -20,6 +20,7 @@ The project demonstrates core backend development concepts, including layered ar
 - [Project Structure](#project-structure)
 - [Future Improvements](#future-improvements)
 - [Author](#author)
+- [Live Deployment](#live-deployment)
 
 ## Overview
 
@@ -48,6 +49,9 @@ The backend is deployed on Render and connected to a cloud-hosted MySQL database
 ### Try the API
 
 - **Retrieve applications:** [GET /api/applications](https://job-application-tracker-3458.onrender.com/api/applications)
+- **Base URL (live):**
+
+`https://job-application-tracker-3458.onrender.com/api/applications`
 
   Use Postman to test the POST, PUT, and DELETE endpoints.
 
@@ -81,6 +85,8 @@ The backend is deployed on Render and connected to a cloud-hosted MySQL database
 | Bean Validation | Request validation |
 | Postman | API testing |
 | Git and GitHub | Version control and source code hosting |
+| Render | Backend hosting and deployment |
+| Aiven MySQL | Cloud database hosting |
 
 ## Architecture
 
@@ -418,6 +424,7 @@ job-application-tracker/
 ├── mvnw
 ├── mvnw.cmd
 └── pom.xml
+├── Dockerfile
 ```
 
 ## Future Improvements
